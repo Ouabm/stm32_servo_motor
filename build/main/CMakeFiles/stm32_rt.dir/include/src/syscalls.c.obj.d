@@ -19,18 +19,6 @@ main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.obj: \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/_locale.h \
  /usr/include/newlib/unistd.h /usr/include/newlib/sys/unistd.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_cdc_if.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/Target/usbd_conf.h \
- /usr/include/newlib/stdio.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
- /usr/include/newlib/sys/stdio.h /usr/include/newlib/stdlib.h \
- /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
- /usr/include/newlib/string.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Core/Inc/main.h \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Core/Inc/stm32h7xx_hal_conf.h \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -67,10 +55,4 @@ main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.obj: \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Core/Inc/stm32h7xx_nucleo_conf.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/BSP/STM32H7xx_Nucleo/stm32h7xx_nucleo_errno.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+ /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h

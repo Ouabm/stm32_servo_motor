@@ -28,14 +28,6 @@ target_sources(stm32_rt PRIVATE
     ${PROJECT_SOURCE_DIR}/main/include/Core/Src/system_stm32h7xx.c
     ${PROJECT_SOURCE_DIR}/main/include/Core/Src/stm32h7xx_hal_msp.c
     ${PROJECT_SOURCE_DIR}/main/include/Core/Src/system_stm32h7xx.c
-    ${PROJECT_SOURCE_DIR}/main/include/USB_DEVICE/Target/usbd_conf.c
-    ${PROJECT_SOURCE_DIR}/main/include/USB_DEVICE/App/usbd_cdc_if.c
-    ${PROJECT_SOURCE_DIR}/main/include/USB_DEVICE/App/usb_device.c
-    ${PROJECT_SOURCE_DIR}/main/include/USB_DEVICE/App/usbd_desc.c
-    ${PROJECT_SOURCE_DIR}/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
-    ${PROJECT_SOURCE_DIR}/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
-    ${PROJECT_SOURCE_DIR}/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
-    ${PROJECT_SOURCE_DIR}/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
     
 )
 
@@ -49,11 +41,6 @@ target_include_directories(stm32_rt PUBLIC
     ${PROJECT_SOURCE_DIR}/main/include/Drivers/STM32H7xx_HAL_Driver/Inc
     ${PROJECT_SOURCE_DIR}/main/include/Core/Inc
     ${PROJECT_SOURCE_DIR}/main/include
-    ${PROJECT_SOURCE_DIR}/main/include/USB_DEVICE/App
-    ${PROJECT_SOURCE_DIR}/main/include/USB_DEVICE/Target
-   
-    ${PROJECT_SOURCE_DIR}/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc
-    ${PROJECT_SOURCE_DIR}/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
     $ENV{CADMIUM}
 )
 

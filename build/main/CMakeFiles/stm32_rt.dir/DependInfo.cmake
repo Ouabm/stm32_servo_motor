@@ -26,10 +26,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Inc"
   "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Core/Inc"
   "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/Target"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
   "/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/include"
   )
 
@@ -54,14 +50,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c" "main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj.d"
   "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c" "main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj.d"
   "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c" "main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj.d"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" "main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj.d"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" "main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj.d"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" "main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj.d"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" "main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj.d"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usb_device.c" "main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj.d"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_cdc_if.c" "main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj.d"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_desc.c" "main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj.d"
-  "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/Target/usbd_conf.c" "main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj.d"
   "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/src/syscalls.c" "main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.obj.d"
   "/home/oualid-boudemagh/Bureau/stm32_servo_motor/main/main.cpp" "main/CMakeFiles/stm32_rt.dir/main.cpp.obj" "gcc" "main/CMakeFiles/stm32_rt.dir/main.cpp.obj.d"
   )

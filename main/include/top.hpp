@@ -8,32 +8,28 @@
 #include "stm32h7xx_hal_dma.h"
 #include "stm32h7xx_hal_uart.h"
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
-extern TIM_HandleTypeDef htim5;
+    extern TIM_HandleTypeDef htim5;
 #ifdef __cplusplus
 }
 #endif
 
-
-
 using namespace cadmium;
 
-struct top_coupled : public Coupled {
-    top_coupled(const std::string& id) : Coupled(id) {
-        // __HAL_RCC_GPIOB_CLK_ENABLE();
+struct top_coupled : public Coupled
+{
+    top_coupled(const std::string &id) : Coupled(id)
+    {
       
-    
+
         auto generator = addComponent<ServoCommandGenerator>("ServocommandState");
         auto controller = addComponent<ServoController>("ServoCOntroller");
-
-        // Configuration manuelle du GPIO
-        
-        auto pwm = addComponent<PWMOutput>("servoPWM", &htim5, TIM_CHANNEL_1,__HAL_TIM_GET_AUTORELOAD(&htim5));
-        //addCoupling(digitalinput->out,atomique->in);
+        auto pwm = addComponent<PWMOutput>("servoPWM", &htim5, TIM_CHANNEL_1, __HAL_TIM_GET_AUTORELOAD(&htim5));
         addCoupling(generator->out, controller->in);
-        addCoupling(controller->out,pwm->in);
+        addCoupling(controller->out, pwm->in);
     }
 };
 
-#endif  // SAMPLE_TOP_HPP
+#endif // SAMPLE_TOP_HPP

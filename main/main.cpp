@@ -19,9 +19,6 @@ int main() {
     MX_TIM5_Init();
     HAL_TIM_PWM_Start(&htim5,TIM_CHANNEL_1);
    
-    // 2) Simulation Cadmium
-   
-   
    
     auto model = std::make_shared<top_coupled>("top_coupled");
     STM32Clock<double> clock; 

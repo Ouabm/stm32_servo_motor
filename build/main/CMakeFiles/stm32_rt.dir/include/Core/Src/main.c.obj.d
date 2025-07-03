@@ -56,11 +56,4 @@ main/CMakeFiles/stm32_rt.dir/include/Core/Src/main.c.obj: \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Core/Inc/main.h \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Core/Inc/tim.h \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Core/Inc/usart.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usb_device.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
- /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/Target/usbd_conf.h \
- /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
- /usr/include/newlib/alloca.h /usr/include/newlib/string.h \
- /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h \
  /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Core/Inc/gpio.h

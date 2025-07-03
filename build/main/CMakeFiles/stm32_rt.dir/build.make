@@ -376,118 +376,6 @@ main/CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.s"
 	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Core/Src/stm32h7xx_hal_msp.c -o CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.s
 
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj: main/CMakeFiles/stm32_rt.dir/flags.make
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj: /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/Target/usbd_conf.c
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj: main/CMakeFiles/stm32_rt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj -MF CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj.d -o CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj -c /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/Target/usbd_conf.c
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.i"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/Target/usbd_conf.c > CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.i
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.s"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/Target/usbd_conf.c -o CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.s
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj: main/CMakeFiles/stm32_rt.dir/flags.make
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj: /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_cdc_if.c
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj: main/CMakeFiles/stm32_rt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj -MF CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj.d -o CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj -c /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_cdc_if.c
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.i"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_cdc_if.c > CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.i
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.s"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_cdc_if.c -o CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.s
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj: main/CMakeFiles/stm32_rt.dir/flags.make
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj: /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usb_device.c
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj: main/CMakeFiles/stm32_rt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj -MF CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj.d -o CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj -c /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usb_device.c
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.i"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usb_device.c > CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.i
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.s"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usb_device.c -o CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.s
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj: main/CMakeFiles/stm32_rt.dir/flags.make
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj: /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_desc.c
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj: main/CMakeFiles/stm32_rt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj -MF CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj.d -o CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj -c /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_desc.c
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.i"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_desc.c > CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.i
-
-main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.s"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/USB_DEVICE/App/usbd_desc.c -o CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.s
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: main/CMakeFiles/stm32_rt.dir/flags.make
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: main/CMakeFiles/stm32_rt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -MF CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj.d -o CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -c /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c > CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c -o CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: main/CMakeFiles/stm32_rt.dir/flags.make
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: main/CMakeFiles/stm32_rt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -MF CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj.d -o CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -c /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c > CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c -o CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: main/CMakeFiles/stm32_rt.dir/flags.make
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: main/CMakeFiles/stm32_rt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -MF CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj.d -o CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -c /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c > CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c -o CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: main/CMakeFiles/stm32_rt.dir/flags.make
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: main/CMakeFiles/stm32_rt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -MF CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj.d -o CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -c /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c > CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
-
-main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s"
-	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oualid-boudemagh/Bureau/stm32_servo_motor/main/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c -o CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
-
 # Object files for target stm32_rt
 stm32_rt_OBJECTS = \
 "CMakeFiles/stm32_rt.dir/main.cpp.obj" \
@@ -511,15 +399,7 @@ stm32_rt_OBJECTS = \
 "CMakeFiles/stm32_rt.dir/include/Core/Src/gpio.c.obj" \
 "CMakeFiles/stm32_rt.dir/include/Core/Src/usart.c.obj" \
 "CMakeFiles/stm32_rt.dir/include/Core/Src/system_stm32h7xx.c.obj" \
-"CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.obj" \
-"CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj" \
-"CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj" \
-"CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj" \
-"CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj" \
-"CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj" \
-"CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" \
-"CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" \
-"CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+"CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.obj"
 
 # External object files for target stm32_rt
 stm32_rt_EXTERNAL_OBJECTS =
@@ -546,17 +426,9 @@ stm32_rt_EXTERNAL_OBJECTS =
 /home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/Core/Src/usart.c.obj
 /home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/Core/Src/system_stm32h7xx.c.obj
 /home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.obj
-/home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/Target/usbd_conf.c.obj
-/home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_cdc_if.c.obj
-/home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usb_device.c.obj
-/home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/USB_DEVICE/App/usbd_desc.c.obj
-/home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-/home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-/home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-/home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/include/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
 /home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/build.make
 /home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf: main/CMakeFiles/stm32_rt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable /home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/oualid-boudemagh/Bureau/stm32_servo_motor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable /home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf"
 	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stm32_rt.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold ".bin file created"
 	cd /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main && arm-none-eabi-objcopy -O binary --gap-fill=0xFF /home/oualid-boudemagh/Bureau/stm32_servo_motor/bin/stm32_rt.elf /home/oualid-boudemagh/Bureau/stm32_servo_motor/build/main/stm32_rt.bin

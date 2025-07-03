@@ -2,7 +2,6 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include "usbd_cdc_if.h"
 #include "stm32h7xx_hal.h"
 #include "stm32h7xx_hal_uart.h"
 #include "stm32h7xx_hal_dma.h"
@@ -12,16 +11,11 @@ extern UART_HandleTypeDef huart2;
 
 int _write(int fd, char *ptr, int len) {
     (void)fd;
-    CDC_Transmit_FS((uint8_t*) ptr, len);
     return len;
 }
 
 int _read(int fd, char *ptr, int len) {
     (void)fd;
-    for (int i = 0; i < len; ++i) {
-        HAL_UART_Receive(&huart2, (uint8_t *)&ptr[i], 1, HAL_MAX_DELAY);
-        HAL_UART_Transmit(&huart2, (uint8_t *)&ptr[i], 1, HAL_MAX_DELAY);  // Echo
-    }
     return len;
 }
 
