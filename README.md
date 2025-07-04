@@ -44,6 +44,6 @@ cd stm32_servo_motor/
 ```
   then
 ```bash
-./Build_stm32
+./build_stm32
 ```
 ![Aperçu](assets/img.jpeg)
