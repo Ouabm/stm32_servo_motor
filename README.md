@@ -46,4 +46,7 @@ cd stm32_servo_motor/
 ```bash
 ./build_stm32
 ```
+## Pins 
+![Aperçu](assets/pins.png)
+
 ![Aperçu](assets/img.jpeg)
