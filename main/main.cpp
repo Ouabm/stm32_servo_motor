@@ -14,17 +14,14 @@ extern "C" {
 
 int main() {
    
-    MX_TIM2_Init();           //  TIM2 configuré dans CubeMX
-    HAL_TIM_Base_Start(&htim2);  // Démarrage du timer pour l’horloge
+    MX_TIM2_Init();           
+    HAL_TIM_Base_Start(&htim2);  
     MX_TIM5_Init();
     HAL_TIM_PWM_Start(&htim5,TIM_CHANNEL_1);
-   
-   
     auto model = std::make_shared<top_coupled>("top_coupled");
     STM32Clock<double> clock; 
     auto rootCoordinator=cadmium::RealTimeRootCoordinator<STM32Clock<double>>(model,clock);
     rootCoordinator.setLogger<cadmium::STDOUTLogger>(";");
-    
     rootCoordinator.start();
     rootCoordinator.simulate(10000.0);
     rootCoordinator.stop();
